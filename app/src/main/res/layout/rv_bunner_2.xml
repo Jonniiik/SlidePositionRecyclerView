@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rv_card"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:id="@+id/rv_ll"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/rv_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/purple_200" />
+
+        <TextView
+            android:id="@+id/rv_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="В приложении появилась возможность сохранять банковские карты для оплаты счетов" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
